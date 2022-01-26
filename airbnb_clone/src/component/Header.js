@@ -7,7 +7,7 @@ const Header = () => {
     setToggle(!toggle);
   }
   return (
-    <div>
+    <>
       <div className="main-header">
         <div className="main-top">
           <div className="main-logo">
@@ -75,7 +75,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
