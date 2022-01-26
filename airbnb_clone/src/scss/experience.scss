@@ -27,7 +27,11 @@
         padding: 12px 22px;
         border: 1px solid #000;
         border-radius: 12px;
+        background-color: #fff;
         cursor: pointer;
+        &:hover {
+          background-color: #ebebeb;
+        }
       }
     }
     .experience-left {
