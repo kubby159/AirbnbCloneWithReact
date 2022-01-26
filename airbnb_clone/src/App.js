@@ -4,6 +4,8 @@ import "./scss/style.scss";
 import Header from "./component/Header";
 import MainImg from "./component/MainImg";
 import LocationIntro from "./component/LocationIntro";
+import Experience from "./component/Experience";
+
 function App() {
   return (
     <>
@@ -12,6 +14,7 @@ function App() {
         <MainImg></MainImg>
       </div>
       <LocationIntro></LocationIntro>
+      <Experience></Experience>
     </>
   );
 }

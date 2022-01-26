@@ -1,0 +1,49 @@
+.experience-container {
+  width: 100%;
+  height: 681px;
+  padding: 24px 32px;
+  background: #fff;
+  border: 1px solid transparent;
+  span {
+    font-size: 32px;
+  }
+  .experience-card {
+    width: 100%;
+    margin-top: 24px;
+    border: 1px solid transparent;
+
+    display: flex;
+    .experience-img {
+      z-index: 0;
+      border-radius: 12px;
+      .experience-title {
+        z-index: 999999;
+        color: #fff;
+        padding: 58px;
+      }
+      .experience-btn {
+        display: block;
+        margin-top: 8px;
+        padding: 12px 22px;
+        border: 1px solid #000;
+        border-radius: 12px;
+        cursor: pointer;
+      }
+    }
+    .experience-left {
+      width: 50%;
+      height: 572px;
+      border: 1px solid #000;
+      background: url("https://img.hankyung.com/photo/201908/AKR20190801048800805_01_i.jpg");
+      background-position: center;
+      background-size: cover;
+      margin-right: 24px;
+    }
+    .experience-right {
+      width: 50%;
+      height: 572px;
+      background: url("https://www.vpass.co.kr/www/Upload/CP_IMAGE/FRONTDB.CP_TOUR_GOODS/202012/16093018414223_php4uYoB7.jpg");
+      background-size: cover;
+    }
+  }
+}
