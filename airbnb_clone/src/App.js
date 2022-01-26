@@ -5,6 +5,7 @@ import Header from "./component/Header";
 import MainImg from "./component/MainImg";
 import LocationIntro from "./component/LocationIntro";
 import Experience from "./component/Experience";
+import Abouthosting from "./component/Abouthosting";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       </div>
       <LocationIntro></LocationIntro>
       <Experience></Experience>
+      <Abouthosting></Abouthosting>
     </>
   );
 }

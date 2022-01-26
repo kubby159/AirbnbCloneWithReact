@@ -1,0 +1,38 @@
+.about-hosting-container {
+  width: 100%;
+  height: 681px;
+  padding: 24px 32px;
+  background: #fff;
+  border: 1px solid transparent;
+  .about-hosting-card {
+    width: 100%;
+    height: 95%;
+    margin-top: 24px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    background: url("https://picpen.chosun.com/data/2020/9/10/4/picimg-a428f981-a1f5-41bf-a6d9-ac078f098749.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+    .about-hosting-coment {
+      z-index: 99999;
+      color: #fff;
+      padding: 78px 52px;
+      font-size: 64px;
+    }
+    .about-hosting-superhost {
+      padding: 52px;
+      .about-hosting-superhost-btn {
+        padding: 8px 14px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        font-size: 12px;
+        cursor: pointer;
+        background-color: #fff;
+        &:hover {
+          background-color: #ebebeb;
+        }
+      }
+    }
+  }
+}
