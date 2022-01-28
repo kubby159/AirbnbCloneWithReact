@@ -5,6 +5,7 @@
   background: #ebebeb;
   display: flex;
   font-size: 12px;
+  justify-content: space-between;
 
   .footer-etc {
     display: flex;
@@ -27,7 +28,7 @@
   }
   .footer-content {
     display: flex;
-    width: 250px;
+
     font-size: 12px;
     .footer-language-krw {
       display: flex;
