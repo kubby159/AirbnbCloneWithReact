@@ -19,3 +19,14 @@ input {
   background-color: transparent;
   outline: transparent;
 }
+
+a {
+  cursor: pointer;
+  color: #000;
+  &:link {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: #000;
+  }
+}

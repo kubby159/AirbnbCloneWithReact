@@ -7,7 +7,7 @@ import LocationIntro from "./component/LocationIntro";
 import Experience from "./component/Experience";
 import Abouthosting from "./component/Abouthosting";
 import Company from "./component/Company";
-
+import Footer from "./component/Footer";
 function App() {
   return (
     <>
@@ -19,6 +19,7 @@ function App() {
       <Experience></Experience>
       <Abouthosting></Abouthosting>
       <Company />
+      <Footer />
     </>
   );
 }
