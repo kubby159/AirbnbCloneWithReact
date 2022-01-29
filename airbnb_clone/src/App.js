@@ -10,7 +10,7 @@ import Company from "./component/Company";
 import Footer from "./component/Footer";
 function App() {
   return (
-    <>
+    <div className="page-layout">
       <div className="main-display">
         <Header></Header>
         <MainImg></MainImg>
@@ -20,7 +20,7 @@ function App() {
       <Abouthosting></Abouthosting>
       <Company />
       <Footer />
-    </>
+    </div>
   );
 }
 
