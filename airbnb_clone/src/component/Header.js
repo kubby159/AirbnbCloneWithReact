@@ -67,10 +67,9 @@ const Header = () => {
                 <span>인원</span>
                 <span className="input-day">게스트 추가</span>
               </div>
-
-              <div className="main-search-icon silhouette">
-                <i class="fas fa-search"></i>
-              </div>
+            </div>
+            <div className="main-search-icon silhouette">
+              <i class="fas fa-search"></i>
             </div>
           </div>
         </div>
