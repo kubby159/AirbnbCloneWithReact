@@ -172,6 +172,7 @@
     .main-guest {
       display: flex;
       align-items: center;
+      position: relative;
       &:hover {
         &::after {
           position: absolute;
@@ -180,9 +181,8 @@
           left: 0px;
           right: 0px;
           bottom: 0px;
-          width: 194px;
+          width: 220px;
           height: 100%;
-          border: 1px solid yellow;
           background-color: #1d1d1d;
           opacity: 0.2;
           border-radius: 34px;
