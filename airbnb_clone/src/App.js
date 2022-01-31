@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import reactDom from "react-dom";
 import "./scss/style.scss";
 import Header from "./component/Header";
@@ -8,6 +8,7 @@ import Experience from "./component/Experience";
 import Abouthosting from "./component/Abouthosting";
 import Company from "./component/Company";
 import Footer from "./component/Footer";
+
 function App() {
   return (
     <div className="page-layout">
